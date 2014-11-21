@@ -7,7 +7,7 @@ Sets up a container with jenkins installed listening on port 8080.
 To run the container, do the following:
 
     docker run -d -P aespinosa/jenkins
-    
+
     docker ps
     CONTAINER ID        IMAGE                       COMMAND                CREATED             STATUS              PORTS                     NAMES
     1131d37c38b1        aespinosa/jenkins:latest    java -jar /opt/jenki   12 seconds ago      Up 12 seconds       0.0.0.0:49153->8080/tcp   drunk_fermi
